@@ -1,0 +1,420 @@
+@media only screen and (max-width: 758px) {
+    .responsive
+    {
+        max-width: 100%;
+        height: auto;
+    }
+    .join-us-inner {
+        padding-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .first-story-wrapper, .second-story-wrapper {
+        padding: 20px;
+        margin-top: 160px;
+    }
+
+    .diploma h2 {
+        width: 100%;
+    }
+
+    .program-section-bg {
+        background-image: none;
+    }
+
+    .program-html-text {
+        width: 100%;
+        padding-left: 36px;
+        padding-top: 25px;
+    }
+
+    .program-block {
+        width: 100%;
+        height: 250px;
+        background-size: 100% 100%;
+    }
+
+    .program-ux {
+        padding-right: 35px;
+    }
+
+    .program-ux-text {
+        padding-top: 30px;
+    }
+
+    .program-block h5 {
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 0;
+    }
+
+    .program-block li {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .program-ui-text {
+        padding-left: 40px;
+        padding-top: 25px;
+    }
+
+    .program-ui-text li {
+        font-size: 10px !important;
+    }
+
+    .program-illustrator {
+        padding-right: 30px;
+    }
+
+    .program-illustrator-text {
+        padding-top: 25px;
+    }
+
+    .program-photoshop-text {
+        padding-left: 33px;
+        padding-top: 33px;
+    }
+
+    .form-header {
+        margin: 70px 0 62px;
+    }
+
+    .mentors-section h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .technologies-logos-grid {
+        margin-left: 0;
+    }
+
+    .technologies-logos-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 34px;
+    }
+
+    .for-who-box {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .why-to-apply-statistic-wrapper {
+        width: 98%;
+    }
+
+    .hiring-platform {
+        width: 100%;
+    }
+
+    .free-img {
+        width: 300px;
+        top: 45px;
+    }
+    /* footer-form */
+
+    .form-footer {
+        padding: 24px 16px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .form-footer label {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .form-wrapper {
+        display: block;
+    }
+
+    .form-footer h5 {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .form-footer h4 {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 24px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .weekly-challenges-section {
+        background: linear-gradient(268.44deg, #EF5DA8 -3.9%, #5D86EF 115.11%);
+        margin-top: 36px;
+        padding: 16px 0;
+    }
+
+    .weekly-challenges-box {
+        margin: 0;
+    }
+
+    .free-listen-btn {
+        margin-bottom: 50px;
+    }
+
+    .diploma-img {
+        margin-left: 0;
+    }
+
+    .w-lg-50 {
+        width: 100%;
+    }
+
+    .start-your-carrier {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .start-your-carrier h3 {
+        margin-bottom: 41px;
+    }
+
+    .start-free-course h3 {
+        margin-top: 13px;
+        margin-bottom: 22px;
+    }
+
+    .start-free-course .steps-inner .step {
+        margin-bottom: 20px;
+    }
+
+    .start-your-carrier-description {
+        width: 91%;
+    }
+
+    .start-your-carrier-description-inner .custom-checkmark-list {
+        padding-left: 30px;
+    }
+
+    .technologies-logos-grid {
+        margin-left: 8px;
+    }
+
+    .why-to-apply-statistic-wrapper {
+        width: 98%;
+    }
+
+    .why-to-apply-statistic {
+        padding-right: 12px !important;
+    }
+
+    .students-path p {
+        width: 100%;
+    }
+
+    .employment-section p {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .academy-second-card, .academy-third-card {
+        margin-top: 80px;
+    }
+
+    .only-academy-radio, .eu-academy-radio {
+        width: fit-content;
+        text-align: left;
+        margin-right: 0;
+    }
+
+    .price-labels label {
+        transform: none;
+    }
+
+    .calculator-label-wrapper {
+        margin-right: 0;
+    }
+
+    .calculator-label-wrapper div:first-child {
+        margin-bottom: 20px;
+    }
+
+    .calculator-label {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .calculator-price {
+        margin-top: 20px;
+    }
+
+    .price-labels label {
+        margin-right: 0;
+    }
+
+    .calendly-questions, .calendly-widget {
+        width: 100%;
+    }
+
+    .calendly-widget {
+        margin-top: 30px;
+        height: 320px;
+    }
+
+    .apply-now-box button {
+        padding: 12px 0;
+        width: 100%;
+    }
+
+    .apply-now-box {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .mentors-wrapper {
+        align-items: center;
+    }
+
+    .second-section-wrapper .container, .success-section .container, .hiring-platform-wrapper .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .why-to-apply, .why-to-apply-statistic {
+        width: 100%;
+    }
+
+    .calendly-inline-widget {
+        overflow-y: hidden;
+    }
+
+    .get-hired {
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .free-introduce-course {
+        margin-top: 0;
+    }
+
+    .free-introduce-course h2 {
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .introduce-course-info-title {
+        font-size: 20px;
+        line-height: 190.5%;
+        text-align: center;
+    }
+
+    .apply-now-btn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .figma-center-text {
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .figma-center-img {
+        margin-right: 0;
+    }
+
+    .figma-center-bg {
+        height: 100%;
+        top: 0;
+        width: 90%;
+        left: 50%;
+        border-radius: 8px;
+        transform: translate(-50%, 0);
+    }
+
+    .figma-center-section {
+        margin-top: 42px;
+    }
+
+    .cursor-img {
+        top: 88%;
+        right: 30%;
+    }
+
+    .creative-hub-rainbow {
+        right: 0;
+        bottom: -60px;
+        top: unset;
+    }
+
+    .figma-border-img {
+        right: 0;
+        top: -30px;
+        height: 90px;
+    }
+
+    .mentor-margin-right {
+        margin-right: 0;
+        margin-bottom: 35px;
+    }
+
+    .mentors-wrapper {
+        margin-left: 0;
+    }
+
+    .mentors-section-bg {
+        background-image: url("images/mentors_mobile_bg.png");
+    }
+
+    .mentors-box-bg {
+        width: 90%;
+    }
+
+    .mentor-dejan {
+        margin-top: 35px;
+    }
+
+    .why-to-apply-statistic {
+        padding-right: 100px;
+    }
+
+    .hiring-platform-wrapper img {
+        height: 100%;
+        width: auto;
+        top: -90px;
+        right: 15px;
+    }
+
+    .calculator-table {
+        width: 100%;
+    }
+
+    .calculator-radio-margin-right {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1510px) {
+    .mentor-box {
+        width: 300px;
+    }
+
+    .mentors-section-bg {
+        background-size: 60% 60%;
+    }
+
+    .mentors-wrapper {
+        margin-left: 7%;
+    }
+
+    .mentor-dejan {
+        margin-left: 5%;
+    }
+
+    .mentors-box-bg {
+        width: 90%;
+    }
+}

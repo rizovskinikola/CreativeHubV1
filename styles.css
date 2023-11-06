@@ -1,0 +1,652 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif !important;
+    background: #f8f8f8;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.full-div {
+    overflow-x: hidden !important;
+}
+.main-title {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    font-weight: 900 !important;
+    font-size: 38px !important;
+    line-height: 48px !important;
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+}
+h3 {
+    font-size: 32px !important;
+    line-height: 38px !important;
+}
+h4 {
+    font-size: 20px !important;
+    line-height: 24px !important;
+}
+p {
+    font-size: 18px;
+    line-height: 22pxp;
+}
+.section-m {
+    margin: 7% 0%;
+}
+.logo p {
+    color: #606060;
+}
+.logo p span {
+    font-weight: 700;
+}
+/* header */
+.header-section {
+    background-image: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    height: 800px;
+}
+
+.color-custom-white {
+    color: #f8f8f8;
+}
+
+.section-title {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.bubbles {
+    margin-top: 13%;
+}
+.header-bubble {
+    background: linear-gradient(162.44deg, #5162ff 0%, #778dff 100%);
+    padding: 3px;
+    border-radius: 85px;
+    z-index: 2;
+    position: relative;
+    margin: 5% 0%;
+    height: 129px;
+    z-index: 2;
+}
+.header-bubble-inner {
+    background: #f4f3ec;
+    border-radius: 85px;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+}
+.header-bubble-inner img {
+    position: absolute;
+    z-index: -1;
+    bottom: -15px;
+}
+#email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 4px 4px 16px;
+    width: 592px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 12px;
+    font-family: Cabin;
+    border: 1px solid #a400cd;
+}
+._submit {
+    background: linear-gradient(139.31deg, #ff6bdf -7.14%, #a400cd 99.28%);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: 10%;
+    right: 24%;
+    padding: 12px 16px;
+    border: none;
+    transition: transform 0.3s;
+}
+._submit:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+}
+/* header */
+/* right place */
+.right-place {
+    padding-top: 8%;
+}
+.right-place h4 {
+    color: #555555;
+    margin-left: 2%;
+    font-weight: 600;
+}
+.also-gradient {
+    background: linear-gradient(162.44deg, #5162ff 0%, #778dff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.right-place-title-2 {
+    margin-top: 10%;
+}
+.right-place-2 {
+    background: linear-gradient(162.44deg, #5162ff 0%, #778dff 100%);
+    padding: 5px;
+    border-radius: 0 42px 42px 0;
+    width: 89%;
+    margin-left: -1%;
+}
+.right-place-2-inner {
+    background: #ffffff;
+    border-radius: 0 42px 42px 0;
+    padding: 2% 0% 2% 14%;
+}
+.right-place-2 h4 {
+    color: #555555;
+    margin-left: 2%;
+}
+/* right-place */
+
+/* academies */
+.academy-box-wrapper {
+    background: linear-gradient(180deg, #00ffe0 0%, #00d1ff 47.92%, #fa00ff 100%);
+    padding: 1px;
+    border-radius: 8px;
+    height: 85px;
+    margin: 5% 0%;
+}
+
+.academy-box {
+    background: #ffffff;
+    box-shadow: 0 36px 48px -23px rgba(0, 32, 81, 0.21);
+    border-radius: 8px;
+    padding: 12px 16px;
+    height: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.academy-box-wrapper:hover {
+    background: transparent;
+}
+
+.academy-box:hover {
+    background: #00c2ff;
+    box-shadow: inset -10px -10px 16px rgba(255, 255, 255, 0.38), inset 10px 10px 16px #028bb6;
+}
+
+.academy-box img {
+    height: min-content;
+}
+
+.academy-box p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #0a0a0a;
+    margin-bottom: 0;
+    margin-left: 18px;
+}
+
+.right-arrow {
+    height: min-content;
+    align-self: center;
+    margin-left: auto;
+}
+
+/* academies */
+
+/* table */
+.table-wrapper {
+    display: flex;
+    background: #000000;
+    border-radius: 18px;
+    color: white;
+    padding: 1%;
+}
+.table-titles {
+    margin-left: 45%;
+    width: 55%;
+    display: flex;
+    background: #ffffff;
+    border-radius: 11px 11px 1px 0px;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-top: 3%;
+}
+.table-titles p {
+    width: 24.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 1px solid #d5d5d5;
+}
+.table-left {
+    width: 45%;
+    padding: 10px;
+}
+.table-right {
+    width: 55%;
+    background-color: white;
+    border-radius: 11px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+.table-column {
+    width: 25%;
+    border-right: 1px solid #d5d5d5;
+}
+.table-left p {
+    height: 30px;
+    border-bottom: 1px solid #555555;
+    margin: 10px;
+}
+.table-right-box {
+    height: 30px;
+    border-bottom: 1px solid #555555;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-right-box img {
+    border-radius: 10px;
+}
+.two-row {
+    height: 60px !important;
+}
+/* table */
+/* student cards */
+.students-section {
+    margin: 5% 0%;
+}
+.student-card {
+    padding: 2px;
+    background: linear-gradient(180deg, #068be9 0%, #ffffff 76.88%);
+    border-radius: 12px;
+    margin: 0 10px;
+    width: 100%;
+}
+.student-card-inner {
+    background: #ffffff;
+    box-shadow: 0px 37px 42px -18px rgba(137, 137, 137, 0.23);
+    border-radius: 12px;
+    padding: 10% 5%;
+}
+.student-card-inner p {
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #000000;
+}
+.student-card-inner h6 {
+    color: #606060;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+}
+.student-card-inner .academy-name {
+    color: #606060;
+}
+.first-row-students {
+    animation: first-marquee-students 40s linear infinite;
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    width: 220%;
+}
+.second-row-students {
+    animation: second-marquee-students 40s linear infinite;
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    width: 200%;
+}
+.third-row-students {
+    animation: first-marquee-students 40s linear infinite;
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    width: 170%;
+}
+
+/* student cards */
+
+/* calendly */
+.calendly-wrapper {
+    background: #d8d8d8;
+    position: relative;
+    padding: 3% 0%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.calendly-wrapper img {
+    max-width: 15%;
+    height: auto;
+    position: absolute;
+    top: -40px;
+}
+.calendly-wrapper p {
+    margin: 0 0 0 14em;
+}
+.calendly-btn {
+    background: #068be9;
+    border-radius: 12px;
+    padding: 12px 56px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: transform 0.2s;
+}
+.calendly-btn:hover {
+    transform: scale(1.05);
+}
+/* calendly */
+@keyframes first-marquee-students {
+    from {
+        right: 0;
+    }
+    to {
+        right: 100%;
+    }
+}
+@keyframes second-marquee-students {
+    from {
+        right: 100%;
+    }
+    to {
+        right: 0%;
+    }
+}
+@keyframes first-marquee {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -1242px 0;
+    }
+}
+
+@keyframes second-marquee {
+    from {
+        background-position: -1304px 0;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes third-marquee {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -1315px 0;
+    }
+}
+
+.first-row-logos {
+    height: 51px;
+    background-image: url("images/logos_first_row.png");
+    background-repeat: repeat-x;
+    animation: first-marquee 13s linear infinite;
+    line-height: 400px;
+    margin-top: 25px;
+}
+
+.second-row-logos {
+    height: 49px;
+    background-image: url("images/logos_second_row.png");
+    background-repeat: repeat-x;
+    animation: second-marquee 13s linear infinite;
+    line-height: 400px;
+    margin-top: 50px;
+}
+
+.third-row-logos {
+    height: 51px;
+    background-image: url("images/logos_third_row.png");
+    background-repeat: repeat-x;
+    animation: third-marquee 13s linear infinite;
+    line-height: 400px;
+    margin-top: 50px;
+}
+
+.logos-section {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    background: #ffffff;
+}
+
+.start-now-btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    background: #ffbd11;
+    box-shadow: 0 16px 19px -5px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+}
+
+#theFooter {
+    margin-top: 90px;
+}
+
+.img-transition {
+    transition: transform 0.2s;
+}
+
+.img-transition:hover {
+    transform: scale(0.98);
+    cursor: pointer;
+}
+.forbes-title {
+    font-size: 24px !important;
+}
+.us-logos {
+    padding-bottom: 5%;
+}
+.us-logos div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0%;
+}
+.us-logos div img {
+    transition: transform 0.2s;
+}
+.us-logos div img:hover {
+    transform: scale(1.15);
+}
+
+@media only screen and (max-width: 920px) {
+    .main-title {
+        font-size: 24px;
+        line-height: 120%;
+    }
+    h2 {
+        font-weight: 800 !important;
+        font-size: 24px !important;
+        line-height: 29px !important;
+        font-weight: 900 !important;
+    }
+    h3 {
+        font-size: 18px !important;
+        line-height: 22px !important;
+    }
+    h4 {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .forbes-title {
+        font-size: 20px !important;
+    }
+    .header-section {
+        background-image: url(images/header_bg_mobile.png);
+    }
+    .header-bubble {
+        margin: 5% 0%;
+        height: 84px;
+        z-index: 2;
+        margin: 10% 0%;
+    }
+    .header-bubble-inner {
+        height: 80px;
+    }
+    .header-bubble-inner img {
+        max-width: 90%;
+    }
+    .right-place h4 {
+        font-weight: 500;
+        margin: 3%;
+    }
+    .right-place-2 {
+        width: 100%;
+        margin-left: -2%;
+        margin-bottom: 5%;
+    }
+    .right-place-2-inner {
+        padding: 2%;
+    }
+    .first-row-students,
+    .second-row-students,
+    .third-row-students {
+        width: 600%;
+        animation: first-marquee-students 10s linear infinite;
+    }
+    .table-column {
+        width: 50%;
+    }
+    .table-left p,
+    .table-right-box {
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+    }
+    .two-row {
+        height: 100px !important;
+    }
+    .table-right-box {
+        height: 60px;
+    }
+    .table-titles p {
+        width: 50%;
+    }
+    .calendly-wrapper
+    {
+        margin-top: 10%;
+    }
+    .calendly-wrapper .container {
+        width: 50%;
+        margin-left: 50%;
+        display: block !important;
+    }
+    .calendly-wrapper p {
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .calendly-wrapper img {
+        max-width: 45%;
+        height: auto;
+        position: absolute;
+        top: -30px;
+        left: 10px;
+    }
+    .us-logos
+    {
+        margin-bottom: 10%;
+    }
+    #email {
+        width: 330px;
+    }
+    ._submit {
+        right: 11%;
+    }
+    .academy-box p {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 389px) and (min-width: 300px) {
+    .learn-section a,
+    .academy-box-wrapper {
+        width: 100%;
+    }
+    ._submit {
+        right: 5%;
+    }
+}
+@media only screen and (max-width: 425px) and (min-width: 390px) {
+    ._submit {
+        right: 9%;
+    }
+}
+@media only screen and (max-width: 460px) and (min-width: 425px) {
+    ._submit {
+        right: 13%;
+    }
+    .calendly-wrapper img {
+        max-width: 45%;
+        height: auto;
+        position: absolute;
+        top: -30px;
+        left: 10px;
+    }
+}
+@media only screen and (max-width: 520px) and (min-width: 460px) {
+    ._submit {
+        right: 17%;
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 520px) {
+    ._submit {
+        right: 22%;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    ._submit {
+        right: 28%;
+    }
+    .calendly-wrapper img {
+        max-width: 29%;
+        height: auto;
+        position: absolute;
+        top: -30px;
+        left: 10px;
+    }
+}
+@media only screen and (min-width: 1650px) {
+    .calendly-wrapper p {
+        margin: 0 0 0 17em;
+    }
+}

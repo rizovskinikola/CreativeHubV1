@@ -1,0 +1,227 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ECECEC;
+  }
+  
+  
+
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+#header {
+    background-image: url("Images/header.png");
+    background-size: cover;
+}
+#secondBG {
+    background-image: url("Images/belowheader.png");
+    background-size: cover;
+}
+#text {
+    background-image: url("Images/text.png");
+    background-size: cover;
+}
+#secondtext {
+    background-image: url("Images/secondtext.png");
+    background-size: cover;
+}
+#thirdBG {
+    background-image: url("Images/thirdBG.png");
+    background-size: cover;
+}
+#logos1 {
+    display: block;
+}
+#logos2 {
+    display: none;
+}
+#program_destop {
+    display: block;
+}
+#program_mobile {
+    display: none;
+}
+#alumni_destop {
+    display: block;
+}
+#alumni_mobile {
+    display: none;
+}
+#Balumni_destop {
+    display: block;
+}
+#Balumni_mobile {
+    display: none;
+}
+#whatyouget_mobile {
+    display: none;
+}
+
+#forwhois_mobile {
+    display: none!important;
+}
+#wantsomething_mobile {
+    display: none;
+}
+#ivana_mob {
+    display: none;
+}
+@media only screen and (max-width:600px) { 
+ #thePadding {
+     padding-top: 500px!important;
+ }
+    #header {
+        background-image: url("Images/header2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #ivana {
+        display: none;
+    }
+    #ivana_mob {
+        display: block;
+    }
+    #wantsomething_destop {
+        display: none;
+    }
+    #wantsomething_mobile {
+        display: block;
+    }
+    #whatyouget_destop {
+       display: none;
+    }
+    #whatyouget_mobile {
+        display: block;
+    }
+    #forwhois_destop {
+        display: none!important;
+    }
+    #forwhois_mobile{
+        display: block!important;
+    }
+    #firstVideo {
+        width: auto!important;
+        height: auto!important;
+    }
+    #program_destop {
+        display: none;
+    }
+    #program_mobile {
+        display: block!important;
+    }
+    #logos1 {
+        display: none;
+    }
+    #logos2 {
+        display: block;
+    }
+    #secondVideo {
+        width: auto!important;
+        height: auto!important;
+    }
+    #thirdVideo {
+        width: auto!important;
+        height: auto!important;
+    }
+
+    #alumni_destop {
+        display: none;
+    }
+    #alumni_mobile {
+        display: block;
+    }
+    #Balumni_destop {
+        display: none;
+    }
+    #Balumni_mobile {
+        display: block;
+    }
+ }
+
+ #text {
+     padding: 25px;
+ }
+
+ #formBG {
+     background-image: url("Images/formBG.png");
+     background-size: cover;
+ }
+ #buttons {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top:15px;
+  
+  }
+
+  #linksForForm {
+    display: flex;
+    justify-content: space-between;
+  }
+  #inputsforPrice {
+    display: flex!important;
+   
+   }
+   .form-control{
+    border: none;
+   }
+   .form-control{
+    border-radius: 12px;
+   }
+   #subjectInput {
+    display: none !important;
+  }
+  #programInputs {
+    margin-top: 20px;  
+    font-size: 13px;
+        
+  }
+  #inputState {
+    border-radius: 12px;
+  }
+  .inputPrices {
+    padding: 8px;
+  }
+  #submitbtn {
+    display: flex;
+  justify-content: flex-end;
+  }
+  #sendbtn {
+    background-color: #FFBD11;
+    color: white;
+    border-radius: 12px;
+    width: 183.84px;
+    height: 47px;
+   
+  }
+  #sendbtn:hover 
+  {   
+    background-color: white;
+    color:black;
+    
+  }
+
+  #myBtnScroll {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    background-color: transparent!important;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  

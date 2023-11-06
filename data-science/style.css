@@ -1,0 +1,1652 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+html{
+    overflow-x: hidden;
+    
+    }
+    * {
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      #blueBG
+      {
+          background-image: url(Images/gradient-bg.webp);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+      
+#WHOLEBG {
+    background-image: url(Images/DATABG.png);
+    background-size: cover;
+}
+#enroll {
+    border: 1.5px solid #5CFFF3;
+    border-radius: 12px;
+    color:#5CFFF3;
+    margin-bottom: 35%;
+    padding: 1% 3%;
+    background-color: #1D1A42;
+}
+
+#freeCourseTitle
+{
+    color: white;
+    background-color:#2D4A78;
+    border-radius: 12px;
+    padding:10px;
+}
+
+
+.free-text
+{
+    color:white;
+    font-size:24px;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+.apply-notes 
+{
+  display: none;
+}
+
+.header-bottom-mobile
+{
+    display: none;
+}
+
+.form-title
+{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+  .form-title span
+  {
+      font-weight: 500;
+      font-size: 18px;
+  }
+  .free-course-list
+{
+    list-style-type: none;
+}
+.free-course-list li 
+{
+    margin-top: 3%;
+}
+
+  .submit
+  {
+      background-color: #068BE9;
+      padding: 2% 30%;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      text-align: center;
+  }
+
+  .hours
+  {
+      color: #D8D8D8;
+      font-size: 20px;
+  }
+  .any-q
+  {
+      font-size: 24px;
+      font-weight: 900;
+  }
+  
+  #reponses
+  {
+      display: flex;
+  }
+
+  .form-header
+  {
+    box-shadow: 1px -9px 14px 0px rgba(84,57,120,0.66);
+    margin-top: 4%  !important;
+    border-radius: 20px;
+    background: linear-gradient(220deg, rgba(20,18,54,1) 76%, rgba(76,228,220,0.4) 100%);
+    padding: 1% 5%;
+    flex: 0 0 45% !important;
+    margin-left: 5%;
+    border-top: 10px solid #5CFFF3;
+  }
+  .yellow-check
+{
+    margin-left: 2%;
+    width: 12px;
+    height: 10px;
+    margin-right: 5% !important;
+
+}
+.course-btn
+{
+    background: linear-gradient(231.38deg, #068BE9 34.17%, #72C4FF 119.03%);
+    width: 100%;
+    padding: 2% 0%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+  .possibilities
+  {
+      text-align: left;
+      font-size: 18px;
+      font-weight: 900;
+  }
+
+  .posibilities-mobile
+  {
+      display: none;
+  }
+  .get-hired
+  {
+    background: #FFFFFF !important;
+    border: 2px solid #5CFFF3;
+    box-sizing: border-box;
+    padding: 1%;
+    color: black;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+  }
+  .get-hired span
+  {
+      color: rgba(40, 94, 140, 1);
+      font-weight: 900;
+  }
+  .second-section-wrapper {
+    z-index: 2;
+    background-color: rgba(29, 26, 65, 1);
+}
+
+.second-section-wrapper .free-img {
+    position: absolute;
+    top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.second-section-bg {
+    background: linear-gradient(185.01deg, rgba(0, 198, 235, 0.15) 4.03%, rgba(0, 198, 235, 0) 72.55%);
+    position: absolute;
+    width: 100%;
+    top: 26%;
+    left: 0;
+    height: 720px;
+    z-index: -1;
+}
+
+.start-your-carrier {
+    box-shadow: 0px 26px 64px rgba(0, 0, 0, 0.27);
+    /* margin-top: 125px; */
+    background-image: url("Images/aurora.png"), linear-gradient(239.72deg, #141236 22.38%, #37C3DD 178.64%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    border-radius: 32px;
+    padding: 65px 101px 51px;
+}
+
+.start-your-carrier h2 {
+    font-weight: 900;
+    font-size: 43px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F8F8F8;
+    margin-bottom: 24px;
+}
+
+.start-your-carrier h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #F8F8F8;
+    margin-bottom: 80px;
+}
+
+.start-free-course {
+    background: #18071B;
+    border-radius: 32px;
+    position: relative;
+}
+
+.start-free-course h3 {
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 190.5%;
+    color: #D8D8D8;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 45px;
+    margin-bottom: 90px;
+}
+
+.start-free-course h3 > span {
+    color: rgba(55, 195, 221, 1);
+    font-weight: bold;
+}
+
+.start-free-course .mentor-img {
+    position: absolute;
+    right: 20px;
+    top: -70px;
+}
+
+.diploma-img {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 80px;
+}
+
+.diploma h2 {
+    width: 570px;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 51px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+.diploma p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.start-free-course .step-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #D8D8D8;
+    border: 2px solid #D8D8D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-free-course .fill-step-circle {
+    background: rgba(55, 195, 221, 1);
+    border: 2px solid rgba(55, 195, 221, 1);
+    box-sizing: border-box;
+    color: #1D1A41;
+}
+
+.start-free-course .step-orange-text {
+    color: rgba(55, 195, 221, 1);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-bottom: 0;
+}
+
+.start-free-course .step-white-text {
+    color: #D8D8D8;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-bottom: 0;
+}
+
+.start-free-course .steps-wrapper {
+    margin: 0 25px 25px;
+    position: relative;
+    background: linear-gradient(232.45deg, #4F9FF1 -17.71%, #001F49 133.24%);
+    padding: 2px;
+    border-radius: 16px;
+}
+
+.start-free-course .steps-inner {
+    padding: 10px;
+    border-radius: 16px;
+    background: #131E1D;
+    justify-content: space-between;
+}
+
+.start-your-carrier-description {
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    position: relative;
+    padding: 0 4px 4px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #4F9FF1  100%);
+    width: 83%;
+}
+
+.start-your-carrier-description-inner {
+    display: flex;
+    padding-left: 10%;
+    padding-top: 0;
+    background: rgba(20, 18, 54, 1);
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    width: 100%;
+}
+
+.custom-checkmark-list {
+    list-style-type: none;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.custom-checkmark-list li {
+    margin-bottom: 25px;
+    margin-left: -10px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.custom-checkmark-list li::before {
+    color: transparent;
+    font-size: 1px;
+    content: " ";
+    margin-left: -1.3em;
+    margin-right: 13px;
+    margin-top: 4px;
+    padding: 10px;
+    background-color: rgba(224, 182, 101, 1);
+    -webkit-mask-image: url("Images/yellow-check.svg");
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.technologies {
+    width: 83%;
+    margin-top: 68px;
+}
+.tehnologies-dekstop
+{
+    width: 100%;
+    height: auto;
+}
+.tehnologies-mobile
+{
+    display: none;
+}
+
+
+.technologies h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.technologies p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: white;
+}
+  .lecturer
+  {
+      max-width: 100%;
+      height: auto;
+      transition: transform .2s;
+  }
+
+  .lecturer:hover
+  {
+      transform: scale(0.98);
+      cursor: pointer;
+  }
+
+  .lecturer-text
+  {
+      font-size: 18px;
+      color: white;
+      padding-top: 7%;
+  }
+
+  .lecturer-text p span 
+  {
+      font-size: 14px;
+      margin-bottom: 3%;
+  }
+
+#glidemobile {
+    display: none;
+}
+
+/* Program cards */
+.programs-card
+{
+    background: linear-gradient(180deg, #6253A8 0%, #1D1A41 100%);
+    box-shadow: 0px 20px 30px rgba(14, 36, 58, 0.1);
+    border-radius: 12px;
+    color: white;
+    padding: 5%;
+    height: 90%;
+}
+.programs {
+    display: flex;
+    padding-bottom: 5%;
+}
+.programs div {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5%;
+}
+
+.apply
+{
+    background-color: #FFC121;
+    border-radius: 10px;
+    padding: 1% 10%;
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 5% 0%;
+}
+/* Program cards */
+
+
+.check-list li img 
+{
+    padding-right: 1%;
+}
+
+.why-start-bg
+{
+background: linear-gradient(0deg, rgba(20,18,54,1) 15%, rgba(0,198,235,0.15) 100%);
+}
+
+.why-apply
+{
+    color: white;
+    padding: 5% 0%;
+}
+
+.certificate
+{
+    color: white;
+    font-weight:900;
+    font-size:43px;
+    text-align: left;
+}
+
+.cetificate-text
+{
+    font-size: 24px;
+    font-weight:700;
+    color:white;
+}
+
+.check-list-1
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.check-list-1 img 
+{
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.check-list-1 p 
+{
+    padding-left: 3%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.four-steps-title
+{
+    font-size: 43px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.four-steps-text
+{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.four-steps-card-1
+{
+    color: white;
+    background-color: #141236;
+    border-radius: 10px;
+    padding: 5% 2% 10% 0%;
+    height: 100%;
+    
+}
+
+.four-steps-card-1 ul li p
+{
+    margin-left: 8%;
+}
+
+.four-steps-card-title
+{
+    font-size: 16px;
+    padding-left: 10%;
+    padding-bottom: 5%  ;
+
+}
+.four-steps-card-title span
+{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+#career
+{
+    font-size: 18px;
+
+}
+.font-18
+{
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+
+.pc-mobile-1
+{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.pc-mobile-1
+{
+    font-size: 18px;
+}
+
+.small
+{
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    padding-top: 2%;
+}
+
+.projects-title
+{
+    font-size: 39px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.projects-card
+{
+    border: 1px solid black;
+    border-radius: 11px;
+    margin: 5% 0%;
+    height: 90%;
+}
+
+.card-text
+{
+    padding: 3%;
+}
+
+.data-title
+{
+    font-size: 43px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+}
+.companies-title
+{
+    font-size: 43px;
+    font-weight: 900;
+    padding: 5% 0%;
+    text-align: center;
+    color: white;
+}
+.data-text
+{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+
+}
+
+.academy-cards-title
+{
+    font-size: 43px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.why-bg
+{
+    background-image: url(Images/why-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+
+.why-left
+{
+    font-size: 43px;
+    font-weight: 900;
+    color: white;
+    padding: 3% 0%;
+}
+
+.why-right
+{
+    color: white;
+    padding: 3% 0%;
+
+}
+
+.marquee-1
+{
+    font-size:43px;
+    font-weight:900
+    ;color: white;
+    padding:10px;
+    background: linear-gradient(232.45deg, #014497 -17.71%, #008183 133.24%);
+}
+
+
+.academy-price span
+{
+    font-size: 20px;
+    font-weight:900;
+}
+
+ul li
+{
+        text-decoration: none;
+        list-style: none;
+        margin-bottom: 1%;
+}
+
+.whyCHLIST img 
+{
+    margin-right: 1%;
+}
+
+.whyCHLIST {
+    display: flex;
+}
+.whyCHLIST p {
+    padding-top: 10px;
+}
+li::marker
+{
+    margin-top: 10%;
+
+}
+
+#accestoProgram {
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(267.3deg, #00CBEE 1.47%, #0065BD 100.8%);
+    border-radius: 32px;
+    max-width: 896px;
+}
+#cube {
+    width: 289px;
+    position: absolute;
+    left: 10px;
+    top: -37px;
+}
+.orangeBTN {
+    background: linear-gradient(90deg, rgba(255,130,15,1) 0%, rgba(255,200,92,1) 100%);
+    color: black!important;
+}
+
+#scadualeDesktop
+{
+    max-width: 80%;
+    height: auto;
+}
+
+
+#places_mobile {
+    display: none;
+}
+#laptop {
+    position: relative;
+    max-width: 150%;
+  }
+  #laptopcard {
+    width: 882px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(233.82deg, #05B4B7 -17.7%, #014497 95.56%);
+  border-radius: 24px;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  }
+  #shrmPaper {
+    display: none;
+  }
+  #feedback {
+    background: #141236;
+    box-shadow: 0px 0px 60px rgba(50, 109, 142, 0.7);
+    border-radius: 0px 16px 16px 0px;
+  }
+  #hiringpic {
+    position: absolute;
+    width: 467px;
+    left: 88px;
+    top: -83px;
+   
+}
+
+.blue-title
+{
+    color:white; 
+    font-weight: 900 !important;
+    padding-top: 5%;
+}
+.academytitle {
+    display: flex;
+}
+.academyCARDS {
+    background-color: #090726!important;
+border-radius: 12px;
+}
+#red {
+    border: 2px solid #D73062; 
+    box-shadow: 0px 36px 65px -15px rgba(212, 44, 104, 0.33);
+}
+#green{
+    box-shadow: 0px 36px 65px -15px rgba(45, 194, 106, 0.3)!important;
+    border: 2px solid #2DC06C ; 
+}
+#orange {
+    box-shadow: 0px 36px 65px -15px rgba(240, 160, 77, 0.3)!important;
+    border: 2px solid #EEA54B; 
+}
+.academyIMG {
+    width: 100px!important;
+    padding: 16px!important;
+    position: relative!important;
+    top: -11px!important;
+    height: 140px;
+}
+
+#calculator {
+    background-color: transparent;
+    color: white;
+}
+#payments input {
+    transform: scale(1.5)
+}
+#payments {
+    
+
+    font-size: 18px;
+    margin-left: 40px;
+    color: white;
+    font-weight: 700;
+    display: inline-table;
+}
+
+/* The container */
+.label {
+    display: inline;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 900;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 2%;
+  }
+  
+  /* Hide the browser's default radio button */
+  .label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .label:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .label input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .label .checkmark:after {
+       top: 8px;
+      left: 8px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: black;
+  }
+  .calculator-flex
+  {
+     display: flex;
+     margin-top:5%
+  }
+
+td {
+    text-align: center
+  }
+  .line td {
+    position: relative;
+  }
+  .line td:after {
+    content: '';
+    border-bottom: 3px solid #003577;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -100%);
+    z-index: -1;
+  }
+  .line td:last-child:after {
+    display: none;
+  }
+  .line {
+    position: sticky; 
+
+  }
+  #result1 {
+    text-align: center;
+    font-size: 20px;
+    border-radius: 12px;
+    color: #003577;
+    font-weight: 700;
+}
+
+.input-type
+{
+  margin-top: 2%;
+   margin-right:5%;
+   background-color: #42E8E0;
+   padding: 1% 2%;
+   border-radius: 10px;
+   width: 35%;
+   color: black;
+   font-weight: 700;
+   text-align: center;
+}
+#linksForForm {
+    display: flex;
+    justify-content: space-between;
+    }
+    #inputsforPrice {
+    display: flex!important;
+    
+    }
+    .form-control{
+    border: none;
+    }
+    .form-control{
+    border-radius: 12px;
+    }
+    #subjectInput {
+    display: none !important;
+    }
+    #programInputs {
+    margin-top: 20px;  
+    font-size: 13px;
+        
+    }
+    #inputState {
+    border-radius: 12px;
+    }
+    .inputPrices {
+    padding: 8px;
+    }
+    #submitbtn {
+    display: flex;
+    justify-content: flex-end;
+    }
+    #sendbtn {
+    background-color: #A967C8;
+    color: white;
+    border-radius: 12px;
+    width: 183.84px;
+    height: 47px;
+    
+    }
+    #sendbtn:hover 
+    {   
+    background-color: white;
+    color:black;
+    
+    }
+#gotofree {
+    background: linear-gradient(231.38deg, #068BE9 34.17%, #72C4FF 119.03%);
+border-radius: 12px;
+color: black;
+font-size: 24px;
+}
+#theFREE {
+    background-image: url("Images/freeBG.png");
+    background-size: cover;
+    /* display: none; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-position: top;
+}
+#theText {
+    background: #141236!important;
+    color: white!important;
+    padding: 4% 12%;
+    border: 1px solid #37C3DD;
+    border-radius: 25px;
+}
+.free-course-list img 
+{
+    margin-right: 2%;
+}
+
+.power-bi-companies
+{
+    padding: 10% 5% 5% 5%;
+    background-color: #141236;
+    border-radius: 10px;
+    box-shadow: 1px -1px 8px 0px rgba(234,233,233,0.3);
+    color: white;
+    height: 95%;
+}
+.upperText h2 
+{
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.companies-people
+{
+    background-color: #040317;
+    padding: 3%;
+    border-top: 1px solid #42E8E0;
+    border-radius: 5px;
+    height: 130px;
+}
+
+.navodnici
+{
+    position: relative;
+    margin-top: -20%;
+    float: right;
+}
+
+
+#fivePicMobile
+{
+    display: none;
+}
+
+.wc-1
+{
+    color:white;
+    font-size:43px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 2%;
+    margin-top: 10%;
+}
+
+.wc-2
+{
+    font-size: 24px;
+    color:white;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 2%;
+}
+
+.wc-3
+{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.program-title
+{
+
+    text-align: center;
+    font-weight: 900;
+    font-size:43px;
+    color:white;
+}
+
+.program-text
+{
+
+    text-align: center;
+    color:white;
+    font-size:18px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+.platform-title
+{
+    font-size: 43px;
+    font-weight:900;
+}
+
+.academy-title
+{
+    font-size: 20px;
+    font-weight: 900;
+}
+.check-btn
+{
+    color: #793CCF;
+    background-color: white;
+    padding: 1% 10%;
+    border-radius: 10px;
+    border: none;
+}
+
+.scaduale-title
+{
+     font-size: 42px;
+     font-weight:900;
+     color:white;
+     margin-bottom: 3%;
+     text-align: center;
+}
+
+#scadualeMobile, #companiesMobile
+{
+    display: none;
+}
+
+.glide, .glide1
+{
+    display: none;
+}
+
+.hiring-margin
+{
+    margin-top: 5%;
+}
+.sonja-bg
+{
+    background: linear-gradient(232.45deg, #4F9FF1 -17.71%, #001F49 133.24%);
+    border-radius: 12px;
+    position: relative;
+    margin-top: 10% !important;
+    margin-bottom: 15%;
+    padding: 5% 0%;
+}
+.sonja-img
+{
+    position: absolute;
+    margin-top: -40%;
+    max-width: 100%;
+    height: auto;
+}
+.sonja-text div
+{
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.sonja-text p 
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #F8F8F8;
+    margin-top: 2%;
+}
+.academy-price
+{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.why-title
+{
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+}
+.table-width
+{
+    width: 50%;
+}
+.free-course-btn
+{
+    background: #068BE9;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    width: 250px;
+    height: 30px;
+    border: none;
+    color: white;
+}
+/* form-footer */
+
+.form-footer {
+    background: linear-gradient(253.26deg, #141236 0%, #244E65 199.83%);
+    box-shadow: 4px 77px 53px -32px rgba(75, 255, 251, 0.1), 0px -12px 0px #5CFFF3;
+    border-radius: 24px;
+    margin-top: 100px;
+    margin-bottom: 124px;
+    padding: 32px 60px;
+    color: #F8F8F8;
+}
+
+.form-footer input, .group {
+    background: rgba(22, 52, 50, 1);
+    border: 1px solid #00B2FF;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 16px;
+}
+::placeholder
+{
+    color: rgba(96, 96, 96, 1) !important;
+}
+.white-btn {
+    background: rgba(6, 139, 233, 1);
+    color: white;
+    box-shadow: 0px 14px 18px -8px #00111D;
+    border-radius: 12px;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    border: none;
+    margin-top: 6%;
+}
+
+.apply-notes {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #9B9B9B;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+._error-inner {
+    color: red;
+    margin-bottom: 8px;
+}
+
+.form-footer .group {
+    margin-bottom: 0;
+}
+
+.form-footer h5 {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 68px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+}
+
+.form-wrapper {
+    display: flex;
+}
+
+.form-wrapper > .grouped-inputs {
+    width: 100%;
+}
+
+.form-wrapper > div:first-child {
+    margin-right: 17px;
+}
+
+.form-footer input::placeholder, select {
+    font-size: 16px;
+    line-height: 20px;
+    color: #D8D8D8;
+}
+
+.form-footer label {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+.submit {
+    background-color: #068BE9;
+    padding: 2% 34%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.small-info {
+    text-align: left !important;
+    color: #9B9B9B;
+    font-size: 12px;
+    padding-top: 2%;
+}
+/* form-footer */
+@media only screen and (max-width:758px)  {
+
+    #hiringpic {
+        display: none;
+    }
+    #laptopcard {
+        width: auto;
+    }
+    #laptop {
+        display: none;
+    }
+    #shrmPaper {
+        display: block;
+        width: 250px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: -10px;
+      }
+    #places_mobile {
+        display: block;
+    }
+    #places_destop {
+        display: none;
+    }
+    .cvcard {
+        width: auto!important;
+        margin-bottom: 10px;
+    }
+
+    #accestoProgram {
+        max-width: auto;
+    }
+
+    #cube {
+        display: none;
+    }
+
+    #preprogramText {
+        padding-top: 30px;
+        padding-left: 43px;
+    }
+
+    #glidemobile{
+        display: block;
+    }
+    #glide_destop {
+        display: none;
+    }
+    #career {
+        display: none;
+    }
+
+    .possibilities
+    {
+        display: none;
+    }
+
+    .form-header
+    {
+        margin-left: auto;
+        margin-right: auto;
+        flex: 0 0 80% !important;
+    }
+
+    #enroll
+    {
+        margin-bottom: 0%;
+    }
+    .start-your-carrier
+{
+    padding: 10% 3%;
+}
+.start-your-carrier h2 
+{
+    font-size: 24px;
+}
+
+.start-your-carrier h3
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+.start-free-course h3 
+{
+    font-size: 24px;
+    margin-bottom: 10px !important;
+}
+.free-img, .second-section-wrapper
+{
+    width: 50%;
+    top: 10px !important;
+}
+.start-your-carrier
+{
+    margin-top: 70px;
+}
+.start-free-course .steps-inner .step {
+    margin-bottom: 20px;
+}
+
+.start-your-carrier-description {
+    width: 91%;
+}
+
+.start-your-carrier-description-inner .custom-checkmark-list {
+    padding-left: 30px;
+}
+
+    .posibilities-mobile
+    {
+        display: block !important;
+        padding-top: 5%;
+    }
+
+    .posibilities-mobile h3 
+    {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .posibilities-mobile p 
+    {
+        font-size: 12px;
+    }
+
+    #fivePic
+    {
+        display: none;
+    }
+
+
+    #fivePicMobile
+    {
+        display: block;
+        padding-bottom: 5%;
+    }
+
+    .check-list-1
+    {
+        font-size: 14px;
+        padding-left: 0;
+    }
+
+    .check-list-1 p 
+    {
+        font-size: 14px;
+        padding-left: 7%;
+    }
+
+    .four-steps-text
+    {
+        font-size: 14px;
+        padding-bottom: 5%;
+
+    }
+
+    .four-steps-card-title 
+    {
+        font-size: 16px;
+    }
+
+    .four-steps-card-1
+    {
+        height: 90%;
+    }
+
+    .d-grid
+    {
+        text-align: center !important;
+        margin-bottom: 5%;
+    }
+    .small
+    {
+        font-weight: 700 !important;
+    }
+
+    .apply
+    {
+        padding: 3% 10%;
+        font-size: 16px;
+    }
+
+
+    #payments
+    {
+        display: flex;
+        padding-top: 10%;
+    }
+    .why-left
+    {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    #applyMobile
+    {
+        display: none;
+    }
+    
+    .projects-title, .certificate, .companies-title, .data-title, .program-title, .wc-1, .four-steps-title, .banner-title span, .banner-title,.marquee-1, .platform-title, .academy-cards-title, .scaduale-title, .free-course-title, .upperText h2, .form-title 
+    {
+        font-size: 24px;
+    }
+
+    .academyCARDS
+    {
+        margin-top: 10%;
+    }
+
+    .pc-mobile-1, .wc-2, .four-steps-card-title span , .why-apply h3, .data-text,  .any-q, .cetificate-text
+    {
+        font-size: 18px;
+    }
+
+    .pc-mobile-2, .platform-text, .programs-card p , .program-text, .wc-3,  .free-course-list, .check-list, .font-18
+    {
+        font-size: 14px;
+    }
+
+    #scadualeMobile
+    {
+        display: block;
+    }
+
+    #scadualeDesktop
+    {
+        display: none;
+    }
+
+    #lecturersDesktop
+    {
+        display: none;
+    }
+
+    .glide, .glide1
+    {
+        display: block;
+    }
+
+    .lecturer-carusel
+    {
+        color: white;
+    }
+    #companiesDesktop, .hiring-margin, .tehnologies-dekstop
+    {
+        display: none;
+    }
+    .mobile-btn-la
+    {
+        text-align: center;
+    }
+
+    .navodnici
+    {
+        margin-top: 0;
+    }
+
+    .academy-cards-title
+    {
+        padding-top: 5%;
+    }
+    .ul-arijana
+    {
+        padding-left: 0;
+    }
+
+    #gotofree
+    {
+        font-size: 18px;
+    }
+
+    #freeCourseTitle
+    {
+        font-size: 18px;
+    }
+
+    .next-grps h3 
+    {
+        font-size: 16px;
+    }
+    
+    .why-apply 
+    {
+        padding: 5% 2%;
+    }
+
+    .submit
+    {
+        padding: 2% 20%;
+    }
+
+    .label
+    {
+        margin: 0;
+    }
+
+    .input-type
+    {
+        width: 50%;
+    }
+
+    #reponses .calculator-flex
+    {
+        display: block;
+    }
+    .tehnologies-mobile
+    {
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+    .technologies
+    {
+        width: 100%;
+    }
+
+    .table-width
+    {
+        width: 100%;
+    }
+     /* footer-form */
+
+     .form-footer {
+        padding: 24px 16px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .form-footer label {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .form-wrapper {
+        display: block;
+    }
+
+    .form-footer h5 {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .form-footer h4 {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 24px;
+    }
+
+}
+
+

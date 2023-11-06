@@ -1,0 +1,53 @@
+.calendly-section {
+    padding-top: 43px;
+    padding-bottom: 96px;
+    background: linear-gradient(257.55deg, #1C435F -40.69%, #000204 101.39%);
+}
+
+.calendly-questions, .calendly-widget {
+    width: 50%;
+}
+
+.calendly-questions h5 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.calendly-questions p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #F8F8F8;
+}
+
+.calendly-questions img {
+    max-width: 50%;
+    height: auto;
+    margin-top: 90px;
+    margin-bottom: 32px;
+    align-self: center;
+}
+
+
+.calendly-widget {
+    margin-top: 150px
+}
+
+@media only screen and (max-width: 992px) {
+
+    .calendly-questions, .calendly-widget {
+        width: 100%;
+    }
+
+    .calendly-widget {
+        margin-top: 30px;
+        height: 320px;
+    }
+
+    .calendly-inline-widget {
+        overflow-y: hidden;
+    }
+}
